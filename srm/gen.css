@@ -1,0 +1,35 @@
+
+
+#generate-report {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+#generate-report h2 {
+    color: #3498db;
+}
+
+#generate-report-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#generate-report-btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+#report-message {
+    margin-top: 10px;
+  color:#555;
+}

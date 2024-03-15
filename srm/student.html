@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student.css">
+    <title>Student Report Management System</title>
+</head>
+<body>
+    
+    <main>
+      
+        <section id="add-student">
+            <h2>Add Student</h2>
+            <form id="add-student-form">
+                <label for="student-name">Name:</label>
+                <input type="text" id="student-name" name="student-name" required>
+
+                <label for="student-id">Student ID:</label>
+                <input type="text" id="student-id" name="student-id" required>
+
+                <label for="student-grade">Grade:</label>
+                <input type="text" id="student-grade" name="student-grade" required>
+
+                <button type="submit">Add Student</button>
+            </form>
+            <p id="add-student-message"></p>
+        </section>
+    </main>
+    <script src="student.js"></script>
+</body>
+</html>

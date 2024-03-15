@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Student Report Management System - Registration</title>
+</head>
+<body>
+    <header>
+        <h1>Student Report Management System</h1>
+    </header>
+    <main>
+        <section id="registration-form">
+            <h2 id="rt">Login to your account</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" requiredc placeholder="Enter your name" >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email id :</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter  your Email id">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter Password">
+                </div>
+
+                <div class="form-group">
+                    <label for="userType">Select User Type:</label>
+                    <select id="userType" name="userType">
+                        <option value="admin">Admin</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="student">Student</option>
+                    </select>
+                </div>
+
+                <button type="submit">Register</button>
+            </form>
+
+            <div class="social-login">
+                <p>Or sign up with:</p>
+                <button class="google-btn">Google</button>
+                <button class="twitter-btn">Twitter</button>
+                <button class="facebook-btn">Facebook</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
